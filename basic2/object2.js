@@ -44,3 +44,30 @@ const regular= {
     console.log(Object.keys(tinder))
     console.log(Object.values(tinder))
     console.log(Object.entries(tinder))
+
+
+
+    const course={
+        courseName: "Javascript",
+        coursePrice: 1000,
+        courseinstrucor: "Harsh"
+    }
+
+    course.courseinstrucor = "Harsh Pandey";
+    console.log(course.courseinstrucor);
+
+    const{courseName}=course 
+
+
+    //JSON
+
+    // {
+    //     'courseName': "Javascript",
+    //    " coursePrice": 1000,
+    //     "courseinstrucor": "Harsh"
+    // }
+    [
+        {},
+        {}
+        
+    ]
