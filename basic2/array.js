@@ -2,7 +2,7 @@ const myArr=[1,2,3,4,5,6,7,8,9,10];
 // console.log(myArr.length);
 
 const myArr2=new Array(1,2,3,4,5,6,7,8,9,10);
-console.log(myArr2[2]);
+// console.log(myArr2[2]);
 
 myArr2.push(11);
 console.log(myArr2); 
