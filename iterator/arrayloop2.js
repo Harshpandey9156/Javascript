@@ -4,7 +4,7 @@ const values = cod.forEach((item)=> {
     //console.log(item)
     return item
 })
-console.log(values)
+console.log(values)// undefined because forEach does not return anything
 
 
 const myNumber = [1,2,3,4,5,6,7,8,9,10]

@@ -39,7 +39,7 @@ console.log(typeof anotherId);
 //+++++++++++++++++++++++++++++++++++++++++++
 //stack and heap
 
-//premeyive data types are stored in stack
+//premetive data types are stored in stack
 //reference data types are stored in heap
 let my1Function ="harsh"
 

@@ -2,7 +2,7 @@ const abc={
     username: "harsh ",
     price: 35,
     welcommessage: function(){
-        console.log(`${this.username} Welcome to our website.`);
+        console.log(`${this.username} , Welcome to our website.`);
         // console.log(this)
     }
 
@@ -35,4 +35,5 @@ console.log(addtwoo(2,3))
 
 //object return in the arrow function
 const addtwooo = (a,b) => ({username:"harsh",age:23})
-console.log(addtwooo(2,3))
+console.log(addtwooo(1,2))
+

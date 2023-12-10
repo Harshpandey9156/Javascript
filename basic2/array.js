@@ -13,6 +13,7 @@ console.log(myArr2);
 myArr2.shift();
 
 myArr2.pop();
+console.log(myArr2);
 
 
 //slice and splice
