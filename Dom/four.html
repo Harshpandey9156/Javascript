@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <ul class="language">
+        <li>Html</li>
+    </ul>
+    
+</body>
+<script>
+    function AddLang(LangName){
+        const li =document.createElement('li')
+        li.innerText=`${LangName}  `
+        document.querySelector('.language').appendChild(li)
+        
+        // documnt.body.appendChild(li)
+
+    }
+    AddLang('css')
+    AddLang('mmm')
+
+    function addOptLanguage(langName)
+    {
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(langName))  
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptLanguage('java')
+
+
+    //edit  
+
+//     const secondLang = document.querySelector('li:nth-child(2)');
+// console.log(secondLang);
+
+// // Create a new li element with text content
+// const newLi = document.createElement('li');
+// newLi.appendChild(document.createTextNode('Motokoo'));
+
+// // Replace the secondLang element with the newLi element
+// secondLang.replaceWith(newLi);
+
+// // Note: After the replacement, secondLang is no longer in the DOM, so logging it will show "null" or "undefined"
+// console.log(secondLang);
+const secondLang= document.querySelector('li:nth-child(2)');
+    console.log(secondLang)
+    // secondLang.innerHTML="Motoko"
+    const lii =document.createElement('li')
+    lii.appendChild( document.createTextNode('Motokoo')) 
+    secondLang.replaceWith(lii)
+    console.log(secondLang)
+
+
+
+    // or third
+    const secLang= document.querySelector('li:nth-child(2');
+    const linew=document.createElement('li')
+    linew.textContent="Motok"
+    secLang.replaceWith(linew)
+    // console.log(secLang)
+
+
+    // another method for changing  this
+    const firstLang= document.querySelector('li:first-child');
+    firstLang.outerHTML='<li>typeabc</li>'
+
+
+    // remove 
+    const thirdlang=document.querySelector('li:nth-child(3)')
+    thirdlang.remove()
+
+
+
+
+</script>
+</html>
