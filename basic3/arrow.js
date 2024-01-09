@@ -15,13 +15,13 @@ console.log(abc.welcommessage())
 function chai()
 {
     let username ="harsh"
-    console.log(this.username)//is not working in the function  because it is not a object it only work in object
+    console.log(username)//is not working in the function  because it is not a object it only work in object
 }
 chai()
 
 const chaii = ()=> {
     let username ="harsh"
-    console.log(this.username)  
+    console.log(this.username)  //not working in arrow function why because it is not a object it only work in object
 }   
 chaii()
 

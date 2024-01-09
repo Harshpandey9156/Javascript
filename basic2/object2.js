@@ -18,7 +18,7 @@ const regular= {
         }
     }
     }
-    // console.log(regular.fullname.userfullname);
+    console.log(regular.fullname.userfullname);
 
     const obj1 ={ 1:"a", 2:"b", 3:"c"};
     const obj2 ={ 4:"c", 5:"a", 6:"b"};
