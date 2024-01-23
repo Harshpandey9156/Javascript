@@ -19,8 +19,24 @@
    </div>
 </body>
 <script>
-    document.getElementById('owl').onclick=function(){
-        alert("owl clicked")
-    }
+     //type  timestamp  defaultprevented target toelement  currenttarget clientX clinent Y screenX and y  
+    // altkey ctrlkey keycode 
+    // document.getElementById('owl').onclick=function(){
+    //     alert("owl clicked")
+    // }
+    document.getElementById('image').addEventListener('click',function(e){
+        console.log("clicked inside the ul")
+    },false)
+   
+    document.getElementById('owl').addEventListener('click',function(e){
+        console.log("owl clicked")
+        e.stopPropagation()
+    },false)
+
+    document.getElementById('google').addEventListener('click',function(e){
+        e.preventDefault();
+        console.log("google")
+    },false) 
+
 </script>
 </html>
